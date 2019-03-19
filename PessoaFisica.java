@@ -10,8 +10,8 @@ public class PessoaFisica extends Cliente{
   
   public PessoaFisica(){
     super();
-    this.CPF = 0;
-    this.estadoCivil = "null";
+    this.CPF = "vago";
+    this.estadoCivil = "vago";
   }
    
   
