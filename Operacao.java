@@ -40,6 +40,17 @@ public class Operacao {
 		}
 		return this.resultado;
 	}
+	void calcularFatorial(int num1) {
+		resultado = 1;
+		for (int i = num1; i > 0; i--) {
+			resultado *= +i;
+		}
+	}
+
+	double calcularMediaPonderada(int num1, int num2) {
+		resultado = (this.num1 * num1 + this.num2 * num2) / (num1 + num2);
+		return resultado;
+	}
 		
 	public int getNum1() {
 		return num1;
