@@ -30,15 +30,22 @@ public class Operacao {
 		return dividendo/divisor;
 	}
 	
-	void calcularFatorial(double numero){
-		resultado = 1;
-		for (int i = numero; i > 0; i--) {
-			resultado *= +i;
+	void subtrair(){
+		this.resultado = this.num1 - this.num2;
 	}
-		
-	double calcularMediaPonderada(int num1, int num2) {
-		resultado = (this.num1 * num1 + this.num2 * num2) / (num1 + num2);
-		return resultado;
+	double calcularPotencia() {
+		this.resultado = 1;
+		for (int i = 0; i < this.num2; i++) {
+		this.resultado = num1 * this.resultado;
+		}
+		return this.resultado;
+	}
+		double calcularPotencia() {
+		this.resultado = 1;
+		for (int i = 0; i < this.num2; i++) {
+			this.resultado = num1 * this.resultado;
+		}
+		return this.resultado;
 	}
 	
 	public int getNum1() {
