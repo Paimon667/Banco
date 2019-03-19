@@ -40,14 +40,7 @@ public class Operacao {
 		}
 		return this.resultado;
 	}
-		double calcularPotencia() {
-		this.resultado = 1;
-		for (int i = 0; i < this.num2; i++) {
-			this.resultado = num1 * this.resultado;
-		}
-		return this.resultado;
-	}
-	
+		
 	public int getNum1() {
 		return num1;
 	}
