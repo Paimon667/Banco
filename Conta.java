@@ -1,4 +1,3 @@
-package exercicio;
 
 public class Conta {
 

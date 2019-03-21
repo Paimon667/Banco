@@ -1,4 +1,4 @@
-package exercicio;
+
 
 public class Movimentacao {
 

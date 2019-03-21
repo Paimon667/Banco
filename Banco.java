@@ -1,4 +1,3 @@
-package exercicio;
 import java.util.Scanner;
 public class Banco {
 
